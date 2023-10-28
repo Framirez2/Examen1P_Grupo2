@@ -19,7 +19,7 @@ def fetch_data_from_database(client_id):
         host="localhost",
         user="root",
         password="",
-        database="sa1e1"
+        database="exam"
     )
     cursor = db.cursor()
     cursor.execute("SELECT * FROM tblexa WHERE  Id_Cliente = %s", (client_id,))
@@ -66,7 +66,7 @@ def display_data():
                 host="localhost",
                 user="root",
                 password="",
-                database="sa1e1"
+                database="exam"
             )
             cursor = db.cursor()
             try:

@@ -12,7 +12,7 @@ db = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
-    database="sa1e1"
+    database="exam"
 )
 
 # Crear un socket server
